@@ -1,0 +1,151 @@
+@font-face {
+    font-family:Graffiti Regular;
+    src: url(assets/fuentes/Graffiti.ttf) format('.tff');
+}
+
+
+.container{
+    background-color:grayscale($color: #726767b5);
+
+
+
+    .logo{
+        display: flex;
+        flex-direction:row ;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4%;
+        width: auto;
+        height: auto;
+    
+        .gato-logo1{
+            height: 100px;
+            width: 100px;
+            margin-bottom: 100%;
+        }
+        .gato-logo2{
+            height: 200px;
+            width: 200px;
+            
+        }
+        .gato-logo3{
+            height: 100px;
+            width: 100px;
+            margin-top:100%;
+        }
+    
+    
+    
+    }
+    
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    
+    h2{
+        font-family: Graffiti Regular;
+        font-size: 30px;
+        text-decoration:underline;
+        margin-left: 5%;
+        margin-top:5%;
+    }
+    .artist{
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content:flex-start;
+        gap:40px;
+        font-family: Graffiti Regular;
+        margin-left: 10%;
+        margin-top: 3%;
+    
+        .artist1{
+            height: 50px;
+            width: 50px;
+            font-size: 25px;
+            .icono1{
+                height: 50px;
+                width: 50px;
+                border-radius: 100%;
+            }
+        }
+    
+        .artist2{
+            height: 50px;
+            width: 50px;
+            font-size: 25px;
+            
+            .icono2{
+                height: 50px;
+                width: 50px;
+                border-radius: 100%;
+            }
+        }
+    }
+}
+
+
+
+
+.cuerpo-pibe{
+    background-color: black;
+    font-family: Graffiti Regular;
+
+
+    .gatologo{
+        height: 10vh;
+        width: 10vh;
+        border-radius: 100%;
+    }
+
+
+    .pibe-general{
+        display: flex;
+        flex-direction: row;
+    
+        .pibe1{
+            height: 200px;
+            width: 200px;
+        
+        }
+    
+        .pibe2{
+            height: 200px;
+            width: 200px;
+            align-items: center;
+            background-color: wheat;
+        }
+    
+    }
+}
+
+
+#comic{
+
+    align-items: center;
+    justify-content: center;
+
+
+    .comic-pags{
+    
+
+        .pag1{
+            width: 500px;
+            height: 500px;
+        }
+        .pag2{
+            width: 500px;
+            height: 500px;
+        }
+        .pag3{
+            width: 500px;
+            height: 500px;
+        }
+        
+    }
+
+}
+
+
+
